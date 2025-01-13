@@ -125,9 +125,9 @@ const UserDetail = () => {
         <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center">
           <UserIcon className="w-8 h-8 text-blue-600" />
         </div>
-        <h2 className="text-2xl font-bold text-gray-900 flex items-center">
+        <h2 className="text-2xl font-bold text-gray-900 flex items-center flex-wrap sm:flex-nowrap">
           {user.name}
-          <span className="ml-2 text-sm text-green-500">
+          <span className="ml-2 text-sm text-green-500 whitespace-nowrap">
             ({user.no_of_times_scanned} scans)
           </span>
         </h2>
