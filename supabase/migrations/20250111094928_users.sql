@@ -1,0 +1,15 @@
+CREATE TABLE users (
+  id uuid PRIMARY KEY DEFAULT uuid_generate_v4(),
+  name text NOT NULL,
+  email text NOT NULL,
+  phone text NOT NULL,
+  address text NOT NULL,
+  gender text NOT NULL,
+  dob date NOT NULL,
+  occupation text NOT NULL,
+  interests text[] NOT NULL,
+  newsletter boolean NOT NULL,
+  country text NOT NULL,
+  qr_code_url text,
+  created_at timestamptz NULL,
+);
