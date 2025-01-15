@@ -9,6 +9,10 @@ A system for managing users with QR codes, built with React, Supabase, and Vite.
 - Bulk user addition
 - User detail view with QR code scan tracking
 
+## Live Demo
+
+You can check out the live demo of the application here: [QR code generation Demo](https://qr-code-generator-react-vite-supabase.netlify.app/)
+
 ## Prerequisites
 
 - Node.js (v14 or higher)
